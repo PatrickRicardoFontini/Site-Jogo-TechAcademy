@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font: 10px;
+    color: #333;
+    padding-top: 100px;
+}
+
+header {
+    background-color: #eeb012 ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav img {
+    width: 60px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.header-nav ul li a:hover {
+    color: brown;    
+}
+
+header nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .redes a i {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    line-height: 30px;
+    text-decoration: none; 
+}
+
+header .redes a i:hover {
+    color: brown;
+}
+
+.creditos {
+    width: 30%;
+    height: auto;
+    border: 2px solid orange;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.549);
+    text-decoration: none;
+    text-align: center;  
+}
+
+.creditos a {
+    text-align: center;
+    text-decoration: none;
+    white-space: pre-line;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: black;
+}
+
+.creditos a:hover {
+    color: brown;
+}
+
+.iframejogo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fundo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;    
+}
+
+.fundo video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;    
+}
+
+.introduçao, .introduçao2 {
+  width: 60%;
+  height: auto;
+  border: 2px solid orange;
+  padding: 20px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.549);
+  text-decoration: none;
+  align-items: center;
+}
+
+.introduçao h2, .introduçao2 h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.introduçao2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.introduçao p {
+    padding: 5px;
+    text-indent: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 75px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.introduçao2 li {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 100px;
+}
+
+
+.introduçao2 img {
+    margin-top: 20px;
+    width: 120px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.704);
+    text-align: center;
+    text-decoration: none;
+}
+
+.introduçao2 .boss {
+    width: 120px;
+    height: 130px;
+}
+
+.jogo h2 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jogo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.jogo .btn {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.iframeJoguito{
+    width: 1000px;
+    height: 500px;
+}
+
+.jogo .botaoplay {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.jogo .botaoplay:hover {
+    color: brown;
+}
+
+button{
+    margin: auto;    
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+@media(min-width: 310px) {
+    .iframeJoguito{
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media(min-width: 500px) {
+    .iframeJoguito{
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .iframeJoguito{
+        width: 1000px;
+        height: 500px;
+    }
+}
+
+@media(min-width: 1300px) {
+    .iframeJoguito{
+        width: 800px;
+        height: 400px;
+    }
+}
